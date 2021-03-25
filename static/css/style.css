@@ -1,0 +1,28 @@
+body,html{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    height:100vh; /* needed for container min-height */
+}
+
+.navbar-dark .navbar-nav .active > .nav-link{
+    color: aliceblue;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.blog-footer{
+
+    position: sticky;
+    margin-top: auto;
+    font-weight: bold;
+    left: 0;
+    /* bottom: 0; */
+    width: 100%;
+    background-color:lightgreen;
+    color:black;
+    text-align: center;
+}
+
